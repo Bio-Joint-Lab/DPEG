@@ -53,7 +53,7 @@ This means that protein sequences with lengths exceeding 1500 have been removed 
 ## Run DPEG for training
 
 When you want to run DPEG for training, execute `train.py` and pass in two arguments:  
-1. **The dataset you intend to use**: The dataset alias and its corresponding path are defined in [here]().  
+1. **The dataset you intend to use**: The dataset alias and its corresponding path are defined in [here](https://github.com/Bio-Joint-Lab/DPEG/blob/main/data_file_path.json).  
 2. **The GPU device you are using**: Specify the GPU index.  
 
 For example:  
