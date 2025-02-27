@@ -1,0 +1,38 @@
+{
+  "BioGRID_H": {
+    "pair":"BioGRID multi vaildated physical interaction sets/human/third_human_MV_pair.tsv",
+    "database":"BioGRID multi vaildated physical interaction sets/human/double_human_MV_database.tsv"
+  },
+  "BioGRID_S": {
+    "pair":"BioGRID multi vaildated physical interaction sets/sa/third_sa_MV_pair.tsv",
+    "database":"BioGRID multi vaildated physical interaction sets/sa/double_sa_MV_database.tsv"
+  },
+  "multiple_species_01": {
+    "pair":"multiple species dataset/CeleganDrosophilaEcoli.actions.filtered.01.l1500.tsv",
+    "database":"multiple species dataset/CeleganDrosophilaEcoli.dictionary.tsv"
+  },
+   "multiple_species_10": {
+    "pair":"multiple species dataset/CeleganDrosophilaEcoli.actions.filtered.10.l1500.tsv",
+    "database":"multiple species dataset/CeleganDrosophilaEcoli.dictionary.tsv"
+  },
+   "multiple_species_25":{
+    "pair":"multiple species dataset/CeleganDrosophilaEcoli.actions.filtered.25.l1500.tsv",
+    "database":"multiple species dataset/CeleganDrosophilaEcoli.dictionary.tsv"
+  },
+   "multiple_species_40": {
+    "pair":"multiple species dataset/CeleganDrosophilaEcoli.actions.filtered.40.l1500.tsv",
+    "database":"multiple species dataset/CeleganDrosophilaEcoli.dictionary.tsv"
+  },
+  "multiple_species_full": {
+    "pair":"multiple species dataset/CeleganDrosophilaEcoli.actions.filtered.full.l1500.tsv",
+    "database":"multiple species dataset/CeleganDrosophilaEcoli.dictionary.tsv"
+  },
+  "DeepFE-PPI_core": {
+    "pair":"yeast core dataset from DeepFE-PPI/action_pair.tsv",
+    "database":"yeast core dataset from DeepFE-PPI/action_dictionary.tsv"
+  },
+  "virus-human": {
+    "database":"virus-human interaction dataset/human_virus_database.tsv",
+    "pair":"virus-human interaction dataset/human_virus_pair.tsv"
+  }
+}
