@@ -25,7 +25,7 @@ pytorch 2.2.0 (with GPU support)
 CuDNN (if not installed, all CuDNNGRU in the source code needs to be
 changed to GRU)
 
-[here]() is a yml file of the environment.
+[here](https://github.com/Bio-Joint-Lab/DPEG/blob/main/environment/ppi.yaml) is a yml file of the environment.
 
 ## folders
 - **./data**: Contains the training datasets.
