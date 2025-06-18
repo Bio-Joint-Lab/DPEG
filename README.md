@@ -60,4 +60,30 @@ For example:
 ```bash  
 python train.py 0 0  
 ```
+## Prediction PPI using DPEG
+1. **Prepare Datasets:**
+
+    Place your prediction datasets (e.g., AA_database and AA_pair) into ./data/benchmarks/AA (name the folder as needed). Update the paths in ./data_file_path.json as follows:
+
+    - **Database format**: proteinID\tproteinSequence
+    - **Pair format:** proteinId1\tproteinId2
+    - Update data_file_path.json:
+    ```json  
+    "your_database_name(AA_or_other)":{ 
+     "database": "your_database_dir(AA)/your_database.tsv(AA_database.tsv)", 
+     "pair": "your_database_dir(AA)/your_pair.tsv(AA_pair.tsv)"}
+    ```
+2. **run Prediction Script**
+    Execute PPI_prediction.py via command line:
+    ```bash  
+    python PPI_prediction.py <testDataset> <model_file_name> <cuda_name> 
+    ```
+    Example:：
+    ```bash  
+    python PPI_prediction.py AA /absolute/path/to/your/model cuda:0
+    ```
+**Notes**
+- Ensure the dataset paths in data_file_path.json are absolute paths for cross-platform compatibility.
+- The <testDataset> should match the key name defined in data_file_path.json (e.g., AA).
+- Replace <model_file_path> with the absolute path to your pre-trained model file.
 ## Reference
