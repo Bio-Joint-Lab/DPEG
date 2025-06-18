@@ -128,7 +128,7 @@ def data_to_csv(csv_file, datalist):
         for data in datalist:
             f.write(','.join(map(str, data)) + '\n')
 
-def create_PPI_dataset(dataset='BioGRID_S', data_process_path='/home/pang/datasets/process/benchmarks'):
+def create_PPI_dataset(dataset='BioGRID_S', data_process_path='./process/benchmarks'):
     print("creating ppi data for ", dataset)
     data_process_path_temp = os.path.join(data_process_path, dataset)
     seq_save_file = os.path.join(data_process_path_temp, "seq.pkl")
