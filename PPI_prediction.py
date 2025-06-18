@@ -27,8 +27,8 @@ logger = logger()
 
 # 检查命令行参数
 if len(sys.argv) != 4:
-    print("使用方法: python indepTest.py <testDataset> <model_file_name> <cuda_name>")
-    print("示例: python indepTest.py virus-human /path/to/model.model cuda:0")
+    print("使用方法: python PPI_prediction.py <testDataset> <model_file_name> <cuda_name>")
+    print("示例: python PPI_prediction.py virus-human /path/to/model.model cuda:0")
     sys.exit(1)
 
 # 从命令行参数获取输入
