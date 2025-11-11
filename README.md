@@ -87,3 +87,4 @@ python train.py 0 0
 - The <testDataset> should match the key name defined in data_file_path.json (e.g., AA).
 - Replace <model_file_path> with the absolute path to your pre-trained model file.
 ## Reference
+Shunpeng Pang, Mingjian Jiang, Shugang Zhang, Shuang Wang, Zhen Li, Jing Sun, Yuanyuan Zhang, Li Guo, Dual-protein embedding-based graph model with dynamic attention for interaction prediction, Briefings in Bioinformatics, Volume 26, Issue 5, September 2025, bbaf517, https://doi.org/10.1093/bib/bbaf517
